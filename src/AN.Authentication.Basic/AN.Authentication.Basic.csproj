@@ -2,7 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Aleksey Nesterov</Authors>
+    <Company>Aleksey Nesterov</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/nester-a/AN.Authentication.Basic</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>basic-authentication-scheme authentication-scheme authenctication</PackageTags>
+    <PackageProjectUrl>https://github.com/nester-a/AN.Authentication.Basic</PackageProjectUrl>
+    <Description>This project contains an implementation of Basic Authentication Scheme with Dependency Injection for ASP.NET Core.</Description>
+    <PackageId>ANAuthenticationBasic</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Please refer to README.md for details.</PackageReleaseNotes>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
